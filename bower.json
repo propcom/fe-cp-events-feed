@@ -1,0 +1,50 @@
+{
+
+    "name": "cp-events-feed",
+    "authors": [
+   
+        "Samuel Woodbridge/Kirsty Rose"
+
+    ],
+
+    "description": "Control Panel Events Feed",
+    "main": "index.php",
+    "repository": {
+
+        "type" : "git",
+        "url" : "https://github.com/propcom/fe-cp-events-feed.git"
+
+    },
+
+    "keywords": [
+
+        "PHP",
+        "Events",
+        "Feed",
+        "Propeller",
+        "propcomm",
+        "propeller",
+        "propcom"
+
+    ],
+
+    "license": "Public",
+    "homepage": "https://github.com/propcom/fe-cp-events-feed.git",
+
+    "ignore" : [
+
+        "/sass/",
+        "/css/",
+        "/img/",
+        "/index.html"
+
+    ],
+
+    "install" : {
+
+        "index.php" : "fuel/app/views/inc/cp-events-feed",
+        "more-news.php" : "fuel/app/views/inc/cp-events-feed"
+
+    }
+
+}
